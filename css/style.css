@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    z-index: 20;
+    z-index: 2;
 }
 .center{
     width: 935px;
@@ -164,7 +164,7 @@
     width: 15px;
     height: 15px;
     margin-left: 480px;
-    z-index: 2;
+    z-index: 1;
 }
 .foto{
     height: 612px;
@@ -397,6 +397,7 @@ body{
         justify-content: space-around;
         border: 1px solid #DBDBDB;
         background: white;
+        z-index: 2;
     }    
     .sidebar{
         display: none;
